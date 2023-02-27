@@ -1,0 +1,36 @@
+@font-face {
+  font-family: TurkeySandwich;
+  src: url("../fonts/TurkeySandwich.ttf");
+}
+
+.turkey-font {
+  color: #e05d06 !important;
+  font-family: TurkeySandwich;
+  text-shadow:
+  2px 2px #000,
+  3px 3px #000,
+  4px 4px #000,
+  5px 5px #000,
+  6px 6px #000;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.nav-link:hover {
+  color: #0a58ca !important;
+}
+
+.switch-green {
+  background-color: #057c0b;
+  color: #34df44;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pyramid-green {
+  background-color: #34df44;
+  color: #057c0b;
+  font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
