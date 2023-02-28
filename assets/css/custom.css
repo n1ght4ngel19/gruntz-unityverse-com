@@ -14,23 +14,79 @@
   6px 6px #000;
 }
 
+#color-coding-toggle-container {
+  display: inline-block;
+  padding-block: 0.5em;
+  margin-top: 1em;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.desc {
+  line-height:  1.75;
+  text-align: justify;
+  font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
 .nav-link {
   font-weight: bold;
   font-size: 2em;
+  margin-block: 0.25em;
 }
 
 .nav-link:hover {
   color: #0a58ca !important;
 }
 
+.game-object {
+  padding: 1px 4px;
+  margin-block: 0.1em;
+  font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  border: 1px solid #000;
+}
+
+.color-off {
+  background-color: #00000000 !important;
+  color: #000 !important;
+  border-color: #00000000 !important;
+}
+
 .switch-green {
   background-color: #057c0b;
   color: #34df44;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-color: #34df44;
 }
 
 .pyramid-green {
   background-color: #34df44;
   color: #057c0b;
+  border-color: #057c0b;
   font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+}
+
+.switch-checkpoint {
+  background-color: #636133;
+  color: #edebed;
+  border-color: #edebed;
+}
+
+.pyramid-checkpoint {
+  background-color: #edebed;
+  color: #636133;
+  border-color: #636133;
+}
+
+.switch-red {
+  background-color: #95090b;
+  color: #ff2c2f;
+  border-color: #ff2c2f;
+}
+
+.pyramid-red {
+  background-color: #ff2c2f;
+  color: #95090b;
+  border-color: #95090b;
 }
