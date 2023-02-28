@@ -1,5 +1,5 @@
 if (!localStorage.hasOwnProperty("isColorCodingOn")) {
-  localStorage.setItem("isColorCodingOn", "true")
+  localStorage.setItem("isColorCodingOn", "false")
 }
 
 if (localStorage.getItem("isColorCodingOn") === "true") {
