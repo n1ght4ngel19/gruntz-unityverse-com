@@ -3,6 +3,14 @@
   src: url("../fonts/TurkeySandwich.ttf");
 }
 
+#logotext {
+  display: inline-block;
+}
+
+.topnav {
+  display: inline-block;
+}
+
 .turkey-font {
   color: #e05d06 !important;
   font-family: TurkeySandwich;
@@ -54,6 +62,18 @@
   border-color: #00000000 !important;
 }
 
+.switch-checkpoint {
+  background-color: #636133;
+  color: #edebed;
+  border-color: #edebed;
+}
+
+.pyramid-checkpoint {
+  background-color: #edebed;
+  color: #636133;
+  border-color: #636133;
+}
+
 .switch-green {
   background-color: #057c0b;
   color: #34df44;
@@ -67,18 +87,6 @@
   font-family: 'Lucida Sans Unicode', 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
 }
 
-.switch-checkpoint {
-  background-color: #636133;
-  color: #edebed;
-  border-color: #edebed;
-}
-
-.pyramid-checkpoint {
-  background-color: #edebed;
-  color: #636133;
-  border-color: #636133;
-}
-
 .switch-red {
   background-color: #95090b;
   color: #ff2c2f;
@@ -89,4 +97,52 @@
   background-color: #ff2c2f;
   color: #95090b;
   border-color: #95090b;
+}
+
+.switch-black {
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+.pyramid-black {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.switch-silver {
+  background-color: #6d7da3;
+  color: #eceaeb;
+  border-color: #eceaeb;
+}
+
+.pyramid-silver {
+  background-color: #eceaeb;
+  color: #6d7da3;
+  border-color: #6d7da3;
+}
+
+.switch-orange {
+  background-color: #a64307;
+  color: #ffc834;
+  border-color: #ffc834;
+}
+
+.pyramid-orange {
+  background-color: #ffc834;
+  color: #a64307;
+  border-color: #a64307;
+}
+
+.switch-purple {
+  background-color: #6306a2;
+  color: #e267fd;
+  border-color: #e267fd;
+}
+
+.pyramid-purple {
+  background-color: #e267fd;
+  color: #6306a2;
+  border-color: #6306a2;
 }

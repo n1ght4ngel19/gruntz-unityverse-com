@@ -1,3 +1,18 @@
+var logotext = document.getElementById("logotext")
+var logotextGruntz = document.getElementById("logotext-gruntz")
+var logotextUnityverse = document.getElementById("logotext-unityverse")
+
+document.getElementById("logotext").addEventListener("mouseover", (event) => {
+  logotextGruntz.style.opacity = "0.75"
+  logotextUnityverse.style.opacity = "0.75"
+})
+
+document.getElementById("logotext").addEventListener("mouseout", (event) => {
+  logotextGruntz.style.opacity = "1"
+  logotextUnityverse.style.opacity = "1"
+})
+
+// Start of Color-coding
 if (!localStorage.hasOwnProperty("isColorCodingOn")) {
   localStorage.setItem("isColorCodingOn", "false")
 }
@@ -37,3 +52,4 @@ function toggleColorCoding(onOffValue) {
     });
   }
 }
+// End of Color-coding
