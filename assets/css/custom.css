@@ -40,13 +40,18 @@
 }
 
 .nav-link {
+  display: inline-block !important;
   font-weight: bold;
-  font-size: 2em;
-  margin-block: 0.25em;
+  font-size: 1.75em;
+  margin-block: 0.15em;
 }
 
 .nav-link:hover {
   color: #0a58ca !important;
+}
+
+.nav-link-img {
+  display: inline-block !important;
 }
 
 .game-object {
