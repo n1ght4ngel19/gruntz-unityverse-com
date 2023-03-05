@@ -11,6 +11,18 @@
   display: inline-block;
 }
 
+.perc-5 {
+  width: 5%;
+}
+
+.perc-10 {
+  width: 10%;
+}
+
+.perc-25 {
+  width: 25%;
+}
+
 .turkey-font {
   color: #e05d06 !important;
   font-family: TurkeySandwich;
@@ -20,6 +32,29 @@
   4px 4px #000,
   5px 5px #000,
   6px 6px #000;
+}
+
+.plain-entry {
+  display: block;
+  padding-block: 0.5em;
+  text-decoration: none;
+}
+
+.plain-hoverable:hover {
+  text-decoration: none;
+  color: #000 !important;
+}
+
+.color-success {
+  color: green !important;
+}
+
+.color-todo {
+  color: #b95a00 !important;
+}
+
+.color-link {
+  color: #4bb4ea !important;
 }
 
 #color-coding-toggle-container {
