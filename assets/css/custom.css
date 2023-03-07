@@ -34,15 +34,37 @@
   6px 6px #000;
 }
 
+.featurez-list {
+  list-style: none;
+}
+
+featurez-list::before {
+  content: "<i class="fas fa-check-square\"style="padding-right: 0.5em;\"></i>"
+}
+
 .plain-entry {
   display: block;
-  padding-block: 0.5em;
+  padding: 0.5em 0;
   text-decoration: none;
+  border: none;
+  font-weight: bold;
+  background-color: #00000000;
+  text-align: start;
 }
 
 .plain-hoverable:hover {
   text-decoration: none;
   color: #000 !important;
+}
+
+.li-success {
+  color: green !important;
+  padding-right: 0.5em;
+}
+
+.li-todo {
+  color: #b95a00 !important;
+  padding-right: 0.5em;
 }
 
 .color-success {
