@@ -1,3 +1,9 @@
+var todoCount = document.querySelectorAll(".color-todo").length
+var doneCount = document.querySelectorAll(".color-success").length
+
+// document.getElementById("progress-value").innerHTML = `${doneCount}/${todoCount}`
+document.getElementById("progress-value").innerHTML = `${(doneCount / todoCount * 100).toFixed(1)}%`
+
 var logotext = document.getElementById("logotext")
 var logotextGruntz = document.getElementById("logotext-gruntz")
 var logotextUnityverse = document.getElementById("logotext-unityverse")

@@ -3,6 +3,11 @@
   src: url("../fonts/TurkeySandwich.ttf");
 }
 
+#progress-indicator {
+  font-weight: bold;
+  font-size: 2em;
+}
+
 #logotext {
   display: inline-block;
 }
