@@ -44,10 +44,6 @@
                     <hr>
                     <h1 class="branding turkey-font" style="font-size: 3.5em;">Wiki</h1>
                 </div><!--//branding-->
-                <div id="color-coding-toggle-container">
-                    <i id="color-coding-toggle-icon" class="fas fa-toggle-on" style="padding-right: 8px;"></i>
-                    <span id="color-coding-toggle-text">Color-coding On</span>
-                </div>
             </div><!--//container-->
         </header><!--//header-->
         <div class="doc-wrapper" style="background-color: #e2e2e2;">
@@ -58,7 +54,7 @@
                             <section id="pyramidz-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
                                     <img src="./assets/images/objectz/pyramidz/PurplePyramid_01.webp" alt="Purple Pyramid">
-                                    <span>PYRAMIDZ</span>
+                                    <span><a href="./wiki/pyramidz-switchez.html">PYRAMIDZ AND SWITCHEZ</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p class="desc">Pyramidz are one of the fundamental puzzle mechanics
@@ -66,184 +62,13 @@
                                         with the color of the Pyramid being the same as the color of the Switch (or
                                         Switchez) controlling it.
                                     </p>
-                                    <p class="desc">By default, proper Pyramid-Switch associations
-                                        <b>are</b> enforced. For example, you can connect <code
-                                            class="color-off game-object pyramid-green">Green&nbspPyramidz</code> only
-                                        to <code class="color-off game-object switch-green">Green&nbspSwitchez</code>
-                                        (of any kind). Of
-                                        course, you can override this behavior on a case-by-case basis, though it is not
-                                        recommended.
-                                    </p>
-                                    <!-- Checkpoint Pyramidz -->
-                                    <div id="checkpoint-pyramidz" class="section-block">
-                                        <h3 class="block-title">Checkpoint Pyramidz</h3>
-                                        <p class="desc">
-                                            <code
-                                                class="color-off game-object pyramid-checkpoint">Checkpoint&nbspPyramidz</code>
-                                            need
-                                            to be assigned to one or more <code
-                                                class="color-off game-object switch-checkpoint">Checkpoint&nbspSwitch(ez)</code>
-                                            <b>and</b> those same <code
-                                                class="color-off game-object switch-checkpoint">Checkpoint&nbspSwitch(ez)</code>
-                                            need to be assigned to the Pyramidz as well to work as intended. The
-                                            Pyramidz are only ever toggled once, when the requirementz of all associated
-                                            <code
-                                                class="color-off game-object switch-checkpoint">Checkpoint&nbspSwitch(ez)</code>
-                                            are
-                                            satisfied.
-                                        </p>
-                                    </div>
-                                    <!-- Green Pyramidz -->
-                                    <div id="green-pyramidz" class="section-block">
-                                        <h3 class="block-title">Green Pyramidz</h3>
-                                        <p class="desc">
-                                            <code class="color-off game-object pyramid-green">Green&nbspPyramidz</code>
-                                            need to be
-                                            assigned to at least one <code
-                                                class="color-off game-object switch-green">Green&nbspSwitch</code> (of
-                                            any
-                                            kind) to work. The Switchez toggle all of their associated Pyramidz at once.
-                                        </p>
-                                    </div>
-                                    <!-- Red Pyramidz -->
-                                    <div id="red-pyramidz" class="section-block">
-                                        <h3 class="block-title">Red Pyramidz</h3>
-                                        <p class="desc">
-                                            Every <code class="color-off game-object pyramid-red">Red&nbspPyramid</code>
-                                            on a
-                                            Level is
-                                            toggled at once by any single <code
-                                                class="color-off game-object switch-red">Red&nbspSwitch</code> (of any
-                                            kind). You
-                                            don't need to connect any of them, if
-                                            there are both <code
-                                                class="color-off game-object pyramid-red">Red&nbspPyramidz</code>
-                                            and
-                                            <code class="color-off game-object switch-red">Red&nbspSwitchez</code> on a
-                                            Level,
-                                            they are all automatically associated.
-                                        </p>
-                                    </div>
-                                    <!-- Black Pyramidz -->
-                                    <div id="black-pyramidz" class="section-block">
-                                        <h3 class="block-title">Black Pyramidz</h3>
-                                        <p class="desc">
-                                            <code class="color-off game-object pyramid-black">Black&nbspPyramidz</code>
-                                            need to be assigned to exactly one <code
-                                                class="color-off game-object switch-black">BOTS</code> to work. The
-                                            Pyramidz
-                                            are only ever toggled once by a Grunt stepping on the associated <code
-                                                class="color-off game-object switch-black">BOTS</code>.
-                                        </p>
-                                    </div>
-                                    <!-- Silver Pyramidz -->
-                                    <div id="silver-pyramidz" class="section-block">
-                                        <h3 class="block-title">Silver Pyramidz</h3>
-                                        <p class="desc">
-                                            <code
-                                                class="color-off game-object pyramid-silver">Silver&nbspPyramidz</code>
-                                            need to be assigned to exactly one <code
-                                                class="color-off game-object switch-silver">Silver&nbspTimer Switch</code>.
-                                            For each Pyramid, you can set a delay and a duration value.
-                                            These dictate after how many seconds a Pyramid is raised after its Switch is
-                                            pressed, and for how long it remains raised, respectively.
-                                        </p>
-                                    </div>
-                                    <!-- Orange Pyramidz -->
-                                    <div id="orange-pyramidz" class="section-block">
-                                        <h3 class="block-title">Orange Pyramidz</h3>
-                                        <p class="desc">
-                                            <code
-                                                class="color-off game-object pyramid-orange">Orange&nbspPyramidz</code>
-                                            need to be assigned to at least two <code
-                                                class="color-off game-object switch-orange">Orange&nbspSwitchez</code>.
-                                            When an <code
-                                                class="color-off game-object switch-orange">Orange&nbspSwitch</code>
-                                            is pressed, it toggles all of its connected Pyramidz. Moreover, it toggles
-                                            all other (at least one) <code
-                                                class="color-off game-object switch-orange">Orange&nbspSwitchez</code>
-                                            connected to it.
-                                        </p>
-                                    </div>
-                                    <!-- Purple Pyramidz -->
-                                    <div id="purple-pyramidz" class="section-block">
-                                        <h3 class="block-title">Purple Pyramidz</h3>
-                                        <p class="desc">
-                                            <code
-                                                class="color-off game-object pyramid-purple">Purple&nbspPyramidz</code>
-                                            need to be assigned to at least one <code
-                                                class="color-off game-object switch-purple">Purple&nbspSwitch</code> to
-                                            work. The Pyramid is toggled every time all of its associated Switchez are
-                                            pressed.
-                                        </p>
-                                    </div>
-                                </div>
-                            </section><!--//doc-section-->
-                            <section id="switchez-section" class="doc-section">
-                                <h2 class="section-title turkey-font" style="font-size: 2.5em;">
-                                    <img src="./assets/images/objectz/switchez/GreenToggleSwitch_01.webp" alt="">
-                                    <span>SWITCHEZ</span>
-                                </h2>
-                                <div class="section-block">
-                                    <p class="desc">
-                                        Todo
-                                    </p>
-                                    <!-- Checkpoint Switchez -->
-                                    <div id="checkpoint-switchez" class="section-block">
-                                        <h3 class="block-title">Checkpoint Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
-                                    <!-- Green Switchez -->
-                                    <div id="green-switchez" class="section-block">
-                                        <h3 class="block-title">Green Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
-                                    <!-- Red Switchez -->
-                                    <div id="red-switchez" class="section-block">
-                                        <h3 class="block-title">Red Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
-                                    <!-- Black Switchez -->
-                                    <div id="black-switchez" class="section-block">
-                                        <h3 class="block-title">Black Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
-                                    <!-- Silver Switchez -->
-                                    <div id="silver-switchez" class="section-block">
-                                        <h3 class="block-title">Silver Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
-                                    <!-- Orange Switchez -->
-                                    <div id="orange-switchez" class="section-block">
-                                        <h3 class="block-title">Orange Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
-                                    <!-- Purple Switchez -->
-                                    <div id="purple-switchez" class="section-block">
-                                        <h3 class="block-title">Purple Switchez</h3>
-                                        <p class="desc">
-                                            Todo
-                                        </p>
-                                    </div>
                                 </div><!--//section-block-->
                             </section><!--//doc-section-->
                             <!-- Brickz -->
                             <section id="brickz-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
                                     <img src="./assets/images/objectz/brickz/131.webp" alt="Brick">
-                                    <span>BRICKZ</span>
+                                    <span><a href="./wiki/brickz.html">BRICKZ</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p>
@@ -257,7 +82,7 @@
                             <section id="hazardz-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
                                     <img src="./assets/images/objectz/hazardz/spikez/Spikez_Gray_01.webp" alt="Spikez">
-                                    <span>HAZARDZ</span>
+                                    <span><a href="./wiki/hazardz.html">HAZARDZ</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p>
@@ -271,7 +96,7 @@
                             <section id="other-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
                                     <img src="./assets/images/objectz/arrowz/ArrowOneWayEast.webp" alt="Arrow">
-                                    <span>OTHER</span>
+                                    <span><a href="./wiki/other.html">OTHER</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p>
@@ -284,8 +109,8 @@
                             <!-- Toolz -->
                             <section id="toolz-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
-                                <img src="./assets/images/itemz/toolz/Tool_Gauntletz.png" alt="Gaunetletz">
-                                <span>TOOLZ</span>
+                                <img src="./assets/images/itemz/toolz/Tool_Gauntletz.webp" alt="Gaunetletz">
+                                <span><a href="./wiki/toolz.html">TOOLZ</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p>
@@ -299,8 +124,8 @@
                             <!-- Toyz -->
                             <section id="toyz-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
-                                    <img src="./assets/images/itemz/toyz/Toy_Beachball.png" alt="Beachball">
-                                    <span>TOYZ</span>
+                                    <img src="./assets/images/itemz/toyz/Toy_BeachBall.gif" alt="Beachball">
+                                    <span><a href="./wiki/toyz.html">TOYZ</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p>
@@ -315,8 +140,8 @@
                             <!-- Powerupz -->
                             <section id="powerupz-section" class="doc-section">
                                 <h2 class="section-title turkey-font" style="font-size: 2.5em;">
-                                    <img src="./assets/images/itemz/powerupz/Powerup_SuperSpeed.png" alt="Super Speed">
-                                    <span>POWERUPZ</span>
+                                    <img src="./assets/images/itemz/powerupz/Powerup_SuperSpeed.gif" alt="Super Speed">
+                                    <span><a href="./wiki/powerupz.html">POWERUPZ</a></span>
                                 </h2>
                                 <div class="section-block">
                                     <p>
@@ -329,48 +154,6 @@
                             </section><!--//doc-section-->
                         </div><!--//content-inner-->
                     </div><!--//doc-content-->
-                    <!-- Navigation -->
-                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
-                        <div id="doc-nav" class="doc-nav">
-                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <!-- <li class="nav-item">
-                                    <a class="nav-link scrollto turkey-font" href="#header">TOP</a>
-                                </li> -->
-                                <li class="nav-item">
-                                    <img src="./assets/images/objectz/pyramidz/PurplePyramid_01.webp" class="nav-link-img" alt="Purple Pyramid">
-                                    <a class="nav-link scrollto turkey-font" href="#pyramidz-section">PYRAMIDZ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/objectz/switchez/GreenToggleSwitch_01.webp" class="nav-link-img" alt="Green Switch">
-                                    <a class="nav-link scrollto turkey-font" href="#switchez-section">SWITCHEZ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/objectz/brickz/131.webp" class="nav-link-img" alt="Brick">
-                                    <a class="nav-link scrollto turkey-font" href="#brickz-section">BRICKZ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/objectz/hazardz/spikez/Spikez_Gray_01.webp" class="nav-link-img" alt="Spikez">
-                                    <a class="nav-link scrollto turkey-font" href="#hazardz-section">HAZARDZ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/objectz/arrowz/ArrowOneWayEast.webp" class="nav-link-img" alt="Arrow">
-                                    <a class="nav-link scrollto turkey-font" href="#other-section">OTHER</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/itemz/toolz/Tool_Gauntletz.png" class="nav-link-img" alt="Gauntletz">
-                                    <a class="nav-link scrollto turkey-font" href="#toolz-section">TOOLZ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/itemz/toyz/Toy_Beachball.png" class="nav-link-img" alt="Beachball">
-                                    <a class="nav-link scrollto turkey-font" href="#toyz-section">TOYZ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <img src="./assets/images/itemz/powerupz/Powerup_SuperSpeed.png" class="nav-link-img" alt="Super Speed">
-                                    <a class="nav-link scrollto turkey-font" href="#powerupz-section">POWERUPZ</a>
-                                </li>
-                            </nav><!--//doc-menu-->
-                        </div>
-                    </div><!--//doc-sidebar-->
                 </div><!--//doc-body-->
             </div><!--//container-->
         </div><!--//doc-wrapper-->

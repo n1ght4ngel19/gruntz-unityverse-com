@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wiki | Pyramidz</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link
+        href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="../assets/fontawesome/js/all.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="../assets/plugins/elegant_font/css/style.css">
+    <link rel="stylesheet" href="../assets/plugins/simplelightbox/simple-lightbox.min.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+    <!-- Custom CSS -->
+    <link id="theme-style" rel="stylesheet" href="../assets/css/custom.css">
+    <!-- Custom JS -->
+    <script defer src="../assets/js/custom.js"></script>
+</head>
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header" style="border-top: none;">
+            <div class="container">
+                <div class="branding">
+                    <h1 id="logotext" class="logo">
+                        <a href="../wiki.html" class="turkey-font">
+                            <div id="logotext-gruntz" style="font-size: 1.5em">Wiki</div>
+                        </a>
+                    </h1>
+                    <hr>
+                    <h1 class="branding turkey-font" style="font-size: 3.5em;">PYRAMIDZ AND SWITCHEZ</h1>
+                </div><!--//branding-->
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper" style="background-color: #e2e2e2;">
+            <div class="container">
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="pyramidz-section" class="doc-section">
+                                <div class="section-block">
+                                    <p class="desc" style="font-size: 1.25em;">Pyramidz are one of the fundamental puzzle mechanics
+                                        of the game. They are Objectz designed to be used in association with Switchez,
+                                        with the color of the Pyramid being the same as the color of the Switch (or
+                                        Switchez) controlling it.
+                                    </p>
+                                    <hr>
+                                    <!-- Checkpoint Pyramidz and Switchez -->
+                                    <div id="checkpoint-pyramidz" class="section-block">
+                                        <h3 class="block-title">Checkpoint Pyramidz</h3>
+                                        <p class="desc">
+                                            <code
+                                                class="color-on game-object pyramid-checkpoint">Checkpoint&nbspPyramidz</code>
+                                            are only ever activated once, when the requirementz of all their associated
+                                            <code
+                                                class="color-on game-object switch-checkpoint">Checkpoint&nbspSwitchez</code>
+                                            are satisfied.
+                                            <code
+                                                class="color-on game-object pyramid-checkpoint">Checkpoint&nbspPyramidz</code>
+                                            and <code
+                                                class="color-on game-object switch-checkpoint">Checkpoint&nbspSwitchez</code>
+                                            that are in the same parent object are automatically connected to each
+                                            other, not requiring any further manual work.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/CheckpointPyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/CheckpointPyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Checkpoint Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/CheckpointSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/CheckpointSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Checkpoint Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                    <hr>
+                                    <!-- Green Pyramidz -->
+                                    <div id="green-pyramidz" class="section-block">
+                                        <h3 class="block-title">Green Pyramidz and Switchez</h3>
+                                        <p class="desc">
+                                            <code class="color-on game-object switch-green">Green&nbspSwitchez</code>
+                                            can be activated any number of times, and they toggle all of their
+                                            associated Pyramidz at once.
+                                            <code class="color-on game-object pyramid-green">Green&nbspPyramidz</code>
+                                            and <code
+                                                class="color-on game-object switch-green">Green&nbspSwitchez</code>
+                                            that are in the same parent object are automatically connected to each
+                                            other, not requiring any further manual work.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/GreenPyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/GreenPyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Green Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/GreenHoldSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/GreenHoldSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Green Hold Switch</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/GreenToggleSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/GreenToggleSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Green Toggle Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                    <hr>
+                                    <!-- Red Pyramidz -->
+                                    <div id="red-pyramidz" class="section-block">
+                                        <h3 class="block-title">Red Pyramidz and Switchez</h3>
+                                        <p class="desc">
+                                            <code class="color-on game-object switch-red">Red&nbspSwitchez</code> can be
+                                            activated any number of times, and they toggle
+                                            every <code class="color-on game-object pyramid-red">Red&nbspPyramid</code>
+                                            present on a Level. There is no need to connect any of them, if there are
+                                            both
+                                            <code class="color-on game-object pyramid-red">Red&nbspPyramidz</code> and
+                                            <code class="color-on game-object switch-red">Red&nbspSwitchez</code> on a
+                                            Level, they are all automatically associated.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/RedPyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/RedPyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Red Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/RedHoldSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/RedHoldSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Red Hold Switch</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/RedToggleSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/RedToggleSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Red Toggle Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                    <hr>
+                                    <!-- Black Pyramidz -->
+                                    <div id="black-pyramidz" class="section-block">
+                                        <h3 class="block-title">Black Pyramidz and Switchez</h3>
+                                        <p class="desc">
+                                            <code
+                                                class="color-on game-object switch-black">Black One-Time Switchez</code>
+                                            are only ever activated once, and they toggle the associated
+                                            <code class="color-on game-object pyramid-black">Black&nbspPyramidz</code>
+                                            at once.
+                                            <code class="color-on game-object pyramid-black">Black&nbspPyramidz</code>
+                                            need to be assigned to exactly one <code
+                                                class="color-on game-object switch-black">BOTS</code> to work. A single
+                                            <code class="color-on game-object switch-black">BOTS</code>
+                                            and all <code
+                                                class="color-on game-object pyramid-black">Black&nbspPyramidz</code>
+                                            that are in the same parent object are automatically connected to each
+                                            other, not requiring any further manual work.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/BlackPyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/BlackPyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Black Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/OneTimeSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/OneTimeSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Black One-Time Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                    <hr>
+                                    <!-- Silver Pyramidz -->
+                                    <div id="silver-pyramidz" class="section-block">
+                                        <h3 class="block-title">Silver Pyramidz and Switchez</h3>
+                                        <p class="desc">
+                                            <code class="color-on game-object pyramid-silver">Silver&nbspPyramidz</code>
+                                            need to be assigned to exactly one <code
+                                                class="color-on game-object switch-silver">Silver&nbspTimer Switch</code>.
+                                            For each Pyramid, you can set a delay and a duration value.
+                                            These dictate after how many seconds a Pyramid is raised after its Switch is
+                                            pressed, and for how long it remains raised, respectively.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/SilverPyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/SilverPyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Orange Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/SilverTimerSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/SilverTimerSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Orange Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                    <hr>
+                                    <!-- Orange Pyramidz -->
+                                    <div id="orange-pyramidz" class="section-block">
+                                        <h3 class="block-title">Orange Pyramidz and Switchez</h3>
+                                        <p class="desc">
+                                            <code class="color-on game-object switch-orange">Orange&nbspSwitchez</code>
+                                            can be activated any number of times, and they toggle all of their
+                                            associated Pyramidz and <code
+                                                class="color-on game-object switch-orange">Orange&nbspSwitchez</code> at
+                                            once.
+                                            <code class="color-on game-object switch-orange">Orange&nbspSwitchez</code>
+                                            and <code
+                                                class="color-on game-object pyramid-orange">Orange&nbspPyramidz</code>
+                                            that are in the same parent object are automatically connected to each
+                                            other, not requiring any further manual work. There need to be at least two
+                                            <code class="color-on game-object switch-orange">Orange&nbspSwitchez</code>
+                                            present in the same parent object.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/OrangePyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/OrangePyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Orange Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/OrangeSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/OrangeSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Orange Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                    <hr>
+                                    <!-- Purple Pyramidz -->
+                                    <div id="purple-pyramidz" class="section-block">
+                                        <h3 class="block-title">Purple Pyramidz and Switchez</h3>
+                                        <p class="desc">
+                                            <code class="color-on game-object switch-purple">Purple&nbspSwitchez</code>
+                                            can be activated any number of times, when all connected <code
+                                                class="color-on game-object switch-purple">Purple&nbspSwitchez</code>
+                                            are
+                                            activated at the same time, and they toggle all of their associated Pyramidz
+                                            at once.
+                                            <code class="color-on game-object switch-purple">Purple&nbspSwitchez</code>
+                                            and <code
+                                                class="color-on game-object pyramid-purple">Purple&nbspPyramidz</code>
+                                            that are in the same parent object are automatically connected to each
+                                            other, not requiring any further manual work. There need to be at least two
+                                            <code class="color-on game-object switch-purple">Purple&nbspSwitchez</code>
+                                            present in the same parent object.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/pyramidz/PurplePyramid_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/pyramidz/PurplePyramid_03.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Purple Pyramid</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">
+                                                            <img src="../assets/images/objectz/switchez/PurpleSwitch_01.webp"
+                                                                alt="">
+                                                            <img src="../assets/images/objectz/switchez/PurpleSwitch_02.webp"
+                                                                alt="">
+                                                        </th>
+                                                        <td>Purple Switch</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div><!--//table-responsive-->
+                                    </div><!--//section-block-->
+                                </div>
+                            </section><!--//doc-section-->
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                </div><!--//doc-body-->
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+    </div>
+
+</body>
+
+</html>
