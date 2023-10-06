@@ -1,0 +1,66 @@
+Gruntz Scrooge v1.2, by Tomalla
+
+  Reading map: RockyWarz
+  Author: SwordGrunt (Guigui)
+
+Tools: 
+ #1  Spy Gear                |  Tile: (4,10)
+ #2  Brick Laying Toolz      |  Tile: (1,10)
+ #3  Gauntletz               |  Tile: (10,4)
+ #4  Shovel                  |  Tile: (10,1)
+ #5  Spy Gear                |  Tile: (35,10)
+ #6  Brick Laying Toolz      |  Tile: (38,10)
+ #7  Gauntletz               |  Tile: (29,4)
+ #8  Shovel                  |  Tile: (29,1)
+ #9  Brick Laying Toolz      |  Tile: (1,29)
+#10  Spy Gear                |  Tile: (4,29)
+#11  Gauntletz               |  Tile: (10,35)
+#12  Shovel                  |  Tile: (10,38)
+#13  Shovel                  |  Tile: (29,38)
+#14  Gauntletz               |  Tile: (29,35)
+#15  Spy Gear                |  Tile: (35,29)
+#16  Brick Laying Toolz      |  Tile: (38,29)
+#17  Wingz (hidden)          |  Tile: (27,12)
+#18  Club (hidden)           |  Tile: (3,15)
+#19  Club (hidden)           |  Tile: (3,24)
+#20  Boomerang (hidden)      |  Tile: (24,36)
+#21  Boxing Glovez (hidden)  |  Tile: (24,3)
+#22  Boomerang (hidden)      |  Tile: (15,36)
+#23  Boxing Gloves (hidden)  |  Tile: (15,3)
+#24  Gun Hat (hidden)        |  Tile: (17,27)
+#25  GooberStraw (hidden)    |  Tile: (12,17)
+#26  Sword (hidden)          |  Tile: (27,22)
+#27  Spring (hidden)         |  Tile: (27,27)
+#28  Wings (hidden)          |  Tile: (12,27)
+#29  Sword (hidden)          |  Tile: (12,12)
+#30  Gravity Bootz (hidden)  |  Tile: (14,10)
+#31  Gun Hat (hidden)        |  Tile: (12,22)
+#32  Bomb (hidden)           |  Tile: (22,27)
+#33  Shield (hidden)         |  Tile: (27,17)
+Total number of Tools: 33
+
+Toys: 
+#1  Squeak Toy (hidden)  |  Tile: (36,15)
+#2  Squeak Toy (hidden)  |  Tile: (36,24)
+#3  Jumprope (hidden)    |  Tile: (22,12)
+Total number of Toys: 3
+
+Powerups: 
+#1  Super Speed      |  Tile: (17,16)
+#2  Invisibility     |  Tile: (23,22)
+#3  Invulnerability  |  Tile: (17,22)
+#4  Roidz            |  Tile: (23,16)
+#5  Death Touch      |  Tile: (20,8)
+#6  Conversion       |  Tile: (20,31)
+#7  Reactive Armor   |  Tile: (31,19)
+#8  Reactive Armor   |  Tile: (8,19)
+Total number of Powerups: 8
+
+Coins: 
+Total number of Coins: 0
+
+WARP Letters: 
+Total number of WARP Letters: 0
+
+Secrets: 
+Total number of Secrets: 0

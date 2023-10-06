@@ -1,0 +1,57 @@
+[b]
+[table]
+[tr]
+[td][b]Designer:[/b][/td]
+[td][img src="http://gooroosgruntz.info/images/BrickLayer.gif"][/td]
+[td][a href="http://gooroosgruntz.info/hintz/Standard/MPIsCLz.html][font color=00FFFF]Monolith Productions, Inc.[/font][/a][/td]
+[/tr]
+[tr]
+[td]Level Set:[/td]
+[td][img src="http://gooroosgruntz.info/editor/Tilez/3TT/TT001.jpg"]
+[a href="http://gooroosgruntz.info/hintz/Custom/SkeletonDesigner/SkeletonLevel/3TTTilez.html"][font color="Red"]3[/font]TT/TT[/a][/td]
+[td]Area [a href="http://gooroosgruntz.info/hintz/Custom/3-TroubleInTheTropicz.html"][font color="Red"]3[/font] [font color="Orange"]"Trouble In The Tropicz"[/font][/a]
+Level [font color="Red"]9[/font][/td]
+[/tr]
+[tr]
+[td]Date Released:[/td]
+[td][img width="32" src="http://gooroosgruntz.info/images/Calendar.gif" height="32"][/td]
+[td]November 10, 1998[/td]
+[/tr]
+[tr]
+[td]Status:[/td]
+[td][img width="32" src="http://gooroosgruntz.info/emoticons/Happy.gif" height="32"][/td]
+[td]Released[/td]
+[/tr]
+[tr]
+[td]Notes:[/td]
+[td][img width="32" src="http://gooroosgruntz.info/images/Note.gif" height="32"][/td]
+[td]Size=Medium ([font color="Red"]80[/font]X[font color="Red"]80[/font])
+Density=Normal[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/3/3-JungleBunglez.WWD"][img src="http://gooroosgruntz.info/editor/Imagez/Download.gif"][/a][/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]Forum's web host[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/3/Statz.jpg"][img src="http://gooroosgruntz.info/Battlez/Standard/3/StatzThumb.jpg"][/a][/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]Forum's web host[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/3/3-JungleBunglez.png"][img src="http://gooroosgruntz.info/Battlez/Standard/3/3-ThumbNail.jpg"] View The Map[/a][/td]
+[td]3,164,690 bytez - Forum's web host[/td]
+[/tr]
+[/table]
+
+
+Lotz to say about this battle to and a lot to do too.
+I don't really use the powerupz in this battle, mostly because they sap your grunt'z health. 
+
+In this battle there are [u]many[/u] bridgez, most of them toggled by switchez. Feel free to sink enemiez on the bridgez that lead to your fort (including that huge one). Have fun sinking the defenderz in their own central bridge found in each fort. Careful upon crossing the big bridge with your army however. All it takez is one way ahead grunt to blunder upon the switch....sinking half (or all) of your army. To ensure this from happening, send one grunt across, have him sink the bridge. When there are no enemiez around, step on the switch again and send your army across.
+You will notice the red pyramid/switch system that letz you get by the first line of brickz, but to me it'z not worth the effort.
+
+Wonder what'z under those rockz? Chancez are that you've already broken those and found mostly timebombz (not the tool) and some ranged toolz. Timebombz and a spongegun can be found on the plateauz, while you can find some sort of ranged tool (like welderz) under a rock in the fort.
+
+Minimum gruntz required to play the battle: [b]2-3[/b]
+Conquering the fortz is cake. Like in Rumble in the Rockz and Fantasy slandz, start by building your defence. You will need to defend both sidez of your fort; careful though, there are those annoying birdz flying around here and there. Send an attack force (you should know what those have by now), it would be helpful to send a bootz grunt along if you have one. Break through the brick layerz. Send the  healthiest grunt to the silver pyramid after the gyserz go off. It'z even possible to conquer the fortz with a single grunt.[/b]

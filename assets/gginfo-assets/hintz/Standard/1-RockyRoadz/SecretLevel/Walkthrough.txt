@@ -1,0 +1,37 @@
+The Secret Level!
+
+This level's existence was unknown until a Monolith insider (named Kevin) told the fan community that it existed in the game. After a laborious search for it, a particular Gruntz fan (named FriedGruntzaholic) finally found its location. However, a walkthrough has, until now, not (really) been written for it. Here's how to get to the secret level:
+Load Rocky Roadz Level 1 (The Giant Rock). Play the level through to the first checkpoint. MAKE SURE you save at the checkpoint, because you can't save once you're in the Secret Level! Press the Enter key and type "mplametoy" (no quotes) in the box that appears on screen. Your cursor will change to a Yo-Yo. Give the Yo-Yo to the Gauntletz/Beach Ball Grunt, and then tell the Gauntletz/Yo-Yo Grunt to go over the arrows. Partway over the arrows, the Gauntletz/Yo-Yo Grunt will suddenly disappear into a warp... and the Secret Level will load!
+----------------------
+
+Starting Gruntz:
+1. Barehanded, Friend, NW corner, in a potentially dangerous spot!
+2. Barehanded, Friend, NE corner, in a potentially dangerous spot!
+3. Barehanded, Friend, SW corner, surrounded by spikes!
+4. Barehanded, Friend, SE corner, surrounded by spikes!
+5. Sword, Smart Chaser Enemy, SW area, near purple pyramids
+6. Sword, Smart Chaser Enemy, SW area, near purple pyramids
+7. Gauntletz Grunt Enemy, South area, between an arrow and a purple pyramid
+8. Barehanded, Friend, South area, surrounded by trouble!
+9. Gauntletz Grunt Enemy, South area, between an arrow and a purple pyramid
+10. Sword, Smart Chaser Enemy, SE area, near purple pyramids
+11. Sword, Smart Chaser Enemy, SE area, near purple pyramids
+Warpstone Piece: Northern edge of level
+Fort: On middle island.
+------------------------------------------------------------
+
+Level Walkthrough:
+
+The first thing to do is get rid of all the enemies in the extreme south of the map. Hit enter and type mpvasflam. Give the Welder's Kit to the southernmost of your Gruntz (#8 on my list). Use it to destroy both Gauntletz Gruntz down there. For the Sword Smart Chaser enemies, give the other two Gruntz in the south half of the level (#3 and 4) Gun Hatz (via Enter and mphardhatmack) and order them to attack those Sword Gruntz. After two hits on each one, they fall.
+
+After the enemies fall, you'll have to get the scattered Gruntz working together to get the Warpstone Piece to the fort. Go to the NW corner and select the Grunt there (#1). In order to dodge the boulder sitting above him, you have to be very fast on the trigger. Hit enter and type mpmeepmeep; this will make the Grunt super fast. VERY QUICKLY go 1 space down to the switch, 1 space up (back to starting position) and 1 space back down to the switch. This will, hopefully, keep the boulder in place while allowing you to proceed southward to a blue hold switch. If you managed to do this trick, proceed south while dodging the boulders until you reach and stand on the blue hold switch.
+
+Now turn your attention to the NE corner Grunt (#2). This guy is in the same situation as his western counterpart was in, with one big difference. Instead of trees, this Grunt is surrounded by holes, which means he can dig his way to freedom! (Yay!  ) Give him a Shovel (Enter and mpfuninthebarn) and fill in a hole to create a safe spot. Hit the yellow toggle switch and then stand on the safe spot until the boulder passes by. Once the boulder is gone, use the shovel to fill in a safe path to the blue hold switch. Stay on that switch once you get there.
+
+Next give your Gun Hat Gruntz Gravity Boots (Enter and mphitopz). Send these two Gruntz up the raised bridges to the purple multi-grunt switches. Put one on each switch and the purple pyramids hemming in the Welder Grunt are lowered. Give the Welder Grunt Gravity Boots too and then send him left and over the arrow. Proceed west and then north onto the western bridge. Dance your way around your standing friends and go north to grab the Warpstone Piece. WARPSTONE PIECE ACQUIRED!
+
+Since the arrow you went over earlier prevents you from backtracking, send the Warpstone Grunt instead south on the eastern bridge. Leave the bridge and hurry your way SE over the spikes, in the process dodging the ill-placed boulder. Once safe from the boulder go west over the arrow. You are now back where you started... but with the Warpstone Piece!
+
+One last bridge now stands between you and victory... but it's a doozy! With the stones not willing to come up together long enough to time a full dash across the bridge (and with no really steady stones either  ), you going to have to do some fancy footwork with your Warpstone Grunt in order to get that Warpstone Piece to the castle. Look at the timing of the stones and take a deep breath before you move your Warpstone Grunt onto the bridge. Once on, make steady, well-aimed, well-timed movements (think of in terms of alternating platforms-as one goes down, move on to the next one and repeat-and listen carefully for audio cues) and remember the Warpstone Grunt is slower than a usual Grunt...
+
+If you got all the way across the bridge with the Warpstone Grunt still holding that stone, pat yourself on the back and give the king that hard-earned Warpstone Piece. Congratulations, you have just beaten the Secret Level!... ... (chuckles)

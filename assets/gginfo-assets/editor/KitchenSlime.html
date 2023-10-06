@@ -1,0 +1,152 @@
+<html>
+<head>
+    <title>KitchenSlime</title>
+</head>
+<body>
+<table width=758 frame="border" rules="all">
+  <tr>
+    <th colspan=2><img src="../images/KitchenSlimeAni.gif"> <font size="+2"><font size="+3">Kitchen Slime</font> <img src="../images/KitchenSlimeAni.gif"><br/><br/></th>
+  </tr>
+  <tr>
+    <td colspan=2><b><font size="+2">KitchenSlime</b></font> is the logic for the hazard used in Area <font color="FF0000"><b>6</b></font> - <b>Honey, I Shrunk the Gruntz</b>.<br/><br/>
+        The <b>KitchenSlime</b> is limitted to travelling in a rectangular path.<br/><br/>
+        <img src="Tilez/8GS/GS217.jpg"><img src="Tilez/6Ho/Ho001.jpg"><img src="Tilez/6Ho/Ho009.jpg"><img src="Tilez/6Ho/Ho001.jpg"><img src="Tilez/6Ho/Ho009.jpg"><img src="Tilez/8GS/GS233.jpg"><br/>
+        <img src="Tilez/6Ho/Ho001.jpg"><img src="Tilez/8GS/GS225.jpg"><img src="Tilez/8GS/GS221.jpg"><img src="Tilez/8GS/GS225.jpg"><img src="Tilez/8GS/GS221.jpg"><img src="Tilez/8GS/GS225.jpg"><br/>
+        <img src="Tilez/6Ho/Ho009.jpg"><img src="Tilez/8GS/GS221.jpg"><img src="Tilez/8GS/GS225.jpg"><img src="Tilez/8GS/GS221.jpg"><img src="Tilez/8GS/GS225.jpg"><img src="Tilez/8GS/GS221.jpg"><br/>
+        <img src="Tilez/8GS/GS229.jpg"><img src="Tilez/8GS/GS225.jpg"><img src="Tilez/8GS/GS221.jpg"><img src="Tilez/8GS/GS225.jpg"><img src="Tilez/8GS/GS221.jpg"><img src="Tilez/8GS/GS225.jpg"><br/><br/>
+        To place a <b>KitchenSlime</b>, place it on the <b><a href="TileAttributez.html">Clear Tile</a></b> that is the upper left-hand <img src="Tilez/8GS/GS217.jpg">, upper right-hand <img src="Tilez/8GS/GS233.jpg">, lower left-hand <img src="Tilez/8GS/GS229.jpg"> or lower right-hand <img src="Tilez/8GS/GS225.jpg"> corner of its path (the Switchez, in the example), then set the tile coordinates of the diagonally opposite corner of its path in the <b>Speed X:</b> and <b>Speed Y:</b> fields.<br/><br/>
+        In this example, if the <b><font size="+2">KitchenSlime</b></font> is placed on the Black One-Time switch, it should have its initial direction either <font color="FFB903"><b>EAST</b></font> (clockwise) or <font color="FFB903"><b>SOUTH</b></font> (counter-clockwise), and the <b>Speed X:</b> and <b>Speed Y:</b> fields should be the Tile coordinatez of one of the the Blue Toggle Switchez, or one of the Yellow Toggle Switchez.<br/><br/>
+        <b>Note:</b> to find the tile coordinates of a particular <b>Tile</b>, go into <b><a href="Featurez/TileMenu.html">Tile mode</a></b> and click on a <b>Tile</b>; displayed in the bottom right of the screen will be the tile coordinates of the selected <b>Tile</b>.<br/><br/>
+        <b>Note:</b> Do a CalcCowID before entering the diagonal tile coordinates ... makes it easier to determine the correct values.<br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <th colspan=2><a href="EditObjects.html"><font size="+2">Edit Objects</font> Dialog Box</a></th>
+  </tr>
+  <tr>
+    <td><b>Name:</b></td>
+    <td>Optional, usually totally unnecessary</td>
+  </tr>
+  <tr valign="top" align="left">
+    <th width=11%>Logic:</th>
+    <th><font color="FFB903">KitchenSlime</font></th>
+  </tr>
+  <tr valign="top" align="left">
+    <th>Image Set:</th>
+    <th>
+      <table>
+        <tr valign="top" align="left">
+          <th><font color="FFB903">LEVEL_KITCHENSLIME_</font></th>
+          <th align="right">+</th>
+          <th align="left"><font color="FFB903">EAST</font></th>
+          <th align="left">Slime crawlz toward the east <img src="../images/KitchenSlimeAni.gif"></th>
+        </tr>
+        <tr>
+          <th colspan=2 align="right">or</th>
+          <th align="left"><font color="FFB903">NORTH</font></th>
+          <th align="left">Slime crawlz toward the north</th>
+        </tr>
+        <tr>
+          <th colspan=2 align="right">or</th>
+          <th align="left"><font color="FFB903">SOUTH</font></th>
+          <th align="left">Slime crawlz toward the south</th>
+        </tr>
+        <tr>
+          <th colspan=2 align="right">or</th>
+          <th align="left"><font color="FFB903">WEST</font></th>
+          <th align="left">Slime crawlz toward the west</th>
+        </tr>
+      </table>
+    <th>
+  </tr>
+  <tr>
+    <td><b>Animation:</b></td>
+    <td>Empty, used only by EyeCandy type Objectz</td>
+  </tr>
+  <tr>
+    <th colspan=2><font size="+1">Location</font></th>
+  </tr>
+  <tr>
+    <td valign="top"><b>X:</b></td>
+    <td>Pixel location of the left edge of the logic box, + <font color="00FF00"><b>8</b></font> (center point).<br/>
+        Determined by the Gruntz Level Editor at creation time.<br/>
+        Changed by the Gruntz Level Editor after 'nudge' or 'shove'.<br/>
+        May be modified by the <font color="00FFFF"><b>Designer</b></font>.<br/>
+        The object is alwayz centered in the tile, for any X:.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Y:</b></td>
+    <td>Pixel location of the top edge of the logic box, + <font color="00FF00"><b>8</b></font> (center point).<br/>
+        Values established in the same manner as "<b>X:</b>".
+    </td>
+  </tr>
+  <tr>
+    <td><b>Z:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td><b>I:</b></td>
+    <td><font color="FFB903"><b>-1</b></font> (default)</td>
+  </tr>
+  <tr>
+    <th colspan=2><font size="+1">Attributes</font></th>
+  </tr>
+  <tr>
+    <td valign="top"><b>Score:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Points:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Smarts:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Powerup:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td><b>Damage:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td><b>Health:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr valign="top" align="left">
+    <th><b>Speed X:</b></td>
+    <th><font color="FFB903">0</font>; put the <font color="00C000"><b>X</b></font> coordinate of the <b>Tile</b> that defines the diagonally opposite corner of the path.</th>
+  </tr>
+  <tr valign="top" align="left">
+    <th>Speed Y:</b></td>
+    <th><font color="FFB903">0</font>; put the <font color="C00000"><b>Y</b></font> coordinate of the <b>Tile</b> that defines the diagonally opposite corner of the path.</th>
+  </tr>
+    <td><b>X Max:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr valign="top">
+    <td><b>Direction:</b></td>
+    <td><b><font color="FFB903">0</font> (default ... clockwise)<br/>
+        1 ... counterclockwise</b>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Y Min:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr>
+    <td><b>Y Max:</b></td>
+    <td><font color="FFB903"><b>0</b></font> (default)</td>
+  </tr>
+  <tr valign="top">
+    <td><b>Speed:</b></td>
+    <td><b><font color="FFB903">0</font> (default ... 2.000 seconds per tile)<br/>
+        600 ... (example: 'normal' speed of an ordinary Grunt per tile)</b>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

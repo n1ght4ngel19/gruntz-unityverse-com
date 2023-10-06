@@ -1,0 +1,57 @@
+Converting Gruntz Level Editor Manual from UBBC to HTML
+
+# is merely a de-limitter character ... copy the string between the two de-limitterz into the Replace dialog boxez
+
+Replace #[img]http://gooroosgruntz.neronhosting.com/editor/# with #<img src="#
+
+Replace #[/img]# with #">#
+
+Replace #[url=http://gooroosgruntz.proboards26.com/index.cgi?# with #<a href="#
+
+Replace #[/url]# with #</a>#
+
+Replace #&action=display# with ##
+
+Replace #&thread=# with ##
+
+Replace #board=# with ##
+
+Replace #GLEBToolz# with #AppendixB/Toolz/#
+
+Replace #/color# with #/font#
+
+Replace #/size# with #/font#
+
+Replace #size=5# with #font size="+4"#
+
+Replace #size=4# with #font size="+3"#
+
+Replace #size=3# with #font size="+2"#
+
+Replace #size=2# with #font size="+1"#
+
+Replace #color=Red# with #font color="FF0000"#
+
+Replace #color=Orange# with #font color="FFB903"#
+
+Replace #color=Blue# with #font color="0000FF"#
+
+Replace #color=Black# with #font color="000000"#
+
+Replace #color=Purple# with #font color="800080"#
+
+Replace #color=LimeGreen# with #font color="32CD32"#
+
+Replace #color=Yellow# with #font color="CCCC00"#
+
+Replace #color=Brown# with #font color="8B1A1A"#
+
+Replace #[# with #<#
+
+Replace #]# with #>#
+
+Manually replace any number #0# through #9# followed by a #># with #.html"#
+
+Manually add #<br/># to the end of each line (perhapz twice!)
+
+Make manual changez unique to the member being converted

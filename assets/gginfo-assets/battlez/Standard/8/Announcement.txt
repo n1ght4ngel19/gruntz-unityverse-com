@@ -1,0 +1,60 @@
+[b]
+[table]
+[tr]
+[td][b]Designer:[/b][/td]
+[td][img src="http://gooroosgruntz.info/images/BrickLayer.gif"][/td]
+[td][a href="http://gooroosgruntz.info/hintz/Standard/MPIsCLz.html"][font color="00FFFF"]Monolith Productions, Inc.[/font][/a][/td]
+[/tr]
+[tr]
+[td]Level Set:[/td]
+[td][img src="http://gooroosgruntz.info/editor/Tilez/8GS/GS001.jpg"]
+[a href="http://gooroosgruntz.info/hintz/Custom/SkeletonDesigner/SkeletonLevel/8GSTilez.html"][font color="Red"]8[/font]GS/GS[/a][/td]
+[td]Area [a href="http://gooroosgruntz.info/hintz/Custom/8-GruntzInSpace.html"][font color="Red"]8[/font] [font color="Orange"]"Gruntz In Space"[/font][/a]
+Level [font color="Red"]29[/font][/td]
+[/tr]
+[tr]
+[td]Date Released:[/td]
+[td][img width="32" src="http://gooroosgruntz.info/images/Calendar.gif" height="32"][/td]
+[td]November 10, 1998[/td]
+[/tr]
+[tr]
+[td]Status:[/td]
+[td][img width="32" src="http://gooroosgruntz.info/emoticons/Happy.gif" height="32"][/td]
+[td]Released[/td]
+[/tr]
+[tr]
+[td]Notes:[/td]
+[td][img width="32" src="http://gooroosgruntz.info/images/Note.gif" height="32"][/td]
+[td]Size=Medium ([font color="Red"]80[/font]X[font color="Red"]80[/font])
+Density=Normal[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/8-StarWarz.WWD"][img src="http://gooroosgruntz.info/editor/Imagez/Download.gif"][/a][/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]Forum's web host[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/8/Statz.jpg"][img src="http://gooroosgruntz.info/Battlez/Standard/8/StatzThumb.jpg"] Statz Page[/a] image[/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]frum's web host[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/8/8-StarWarz.jpg"][img src="http://gooroosgruntz.info/Battlez/Standard/8/8-ThumbNail.jpg"] View The Map[/a][/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]3,324,301 bytez - Forum's web host[/td]
+[/tr]
+[/table]
+
+This standard battle is the only one that I have ever seen the AI pick up a curse (the bothersome screen shake). Around the plateau with the curse, there is also a magic wand and a gunhat in the open. There are also a number of crystalz, you will find two setz of wingz under them. 
+Around this area you will find many pitz that have open bridgez with switchez on either side to operate them. You can easily lure AIz over them and then hit the switch to make them fall into the void. You will also notice the powerup (or two) that have gyserz underneath them. The onez of most interest are the super speed, conversion, and death touch. Some of the pitz have red toggling bridgez with powerupz on them, these are the most useful. 
+One large pit has a giant crystal in the center. The switchez reachable do not close the bridge the whole way ( ??? ???). The switch that completez them is the one unreachable until you fill in the holez. The giant crystal containz a red switch. This switch, when stood on lowerz some red pyramidz. With the wingz found on the curse(d) plateau you can avoid having to break the first set of birckz. As in Jungle Bunglez, it is a near worthless hassle (the AIz hack through their own fort without a second thought anyway :P). 
+There is a small pile of crystalz near the SW fort which containz a gooberstraw.
+There are also many natural barrierz such as holez and foundation tilez (build brickz on them).
+
+The fortz have their various advantagez. The SE for is a winner for sure, fast access to a roidz and invunerability powerupz. Close by are a death touch and a conversion. Ditto for the SW fort. It has a reactive armor powerup nearby. In addition this fort startz with two shovelz, no brick layer. This makez this fort a much better defense. There is also a gooberstraw hiding in those crystalz nearby. The NE and NW fortz don't have any really useful benefitz, if any. 
+
+Defense is quite easy. If you're near foundation tilez, build brickz upon them ASAP, the AIz won't try breaking through. Keep holez nearby open. Then most of the enemiez can be channeled into one point. Also, don't forget the benefitz of the SW fort, not only do you get 2 shovelz and gauntletz, but also a gooberstraw to make new gruntz faster! 8-)
+
+Minimum amount of gruntz required to play battle 1-2
+Everything can be easily be done with a single grunt throughout the whole battle (if your're fast). Nothing too troublesome other than that UFO (close cousin of that disregardful thunder cloud from Goo in the Greenz, though a bit more merciful). There can be some frustrationz if the brick blocking the green switch happenz to be a gold one. The AIz will really do half of the work for you. With a bit of time (and luck that they don't get zapped). They will fll in their own holez, then you can run by them.
+[/b]

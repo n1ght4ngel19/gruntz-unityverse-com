@@ -1,0 +1,17 @@
+StatzThumb.jpg"></a>  StatzThumb.jpg" alt="32X24"></a>
+
+../20  20
+
+../Med  Med
+
+../Hard  Hard
+
+../Easy  Easy
+
+../../../ima  ../../ima
+
+../../../emo  ../../emo
+
+../Very  Very
+
+/.jpg"></a>  /ThumbNail.jpg" alt="??X??"></a>

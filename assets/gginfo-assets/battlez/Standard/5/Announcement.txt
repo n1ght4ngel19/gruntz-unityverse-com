@@ -1,0 +1,49 @@
+[b]
+[table]
+[tr]
+[td]Designer:[/td]
+[td][img src="http://gooroosgruntz.info/images/BrickLayer.gif"][/td]
+[td][a href="http://gooroosgruntz.info/hintz/Standard/MPI/MPIsCLz.html][font color=00FFFF]Monolith Productions, Inc.[/font][/a][/td]
+[/tr]
+[tr]
+[td]Level Set:[/td]
+[td][img src="http://gooroosgruntz.info/editor/Tilez/5HR/HR001.jpg"][a href="http://gooroosgruntz.info/hintz/Custom/SkeletonDesigner/SkeletonLevel/5HRTilez.html"][font color="Red"]5[/font]HR/HR[/a][/td]
+[td]Area [a href="http://gooroosgruntz.info/hintz/Custom/5-HighRollerz.html"][font color="Red"]5[/font] [font color="Orange"]"High Rollerz"[/font][/a]Level [font color="Red"]17[/font][/td]
+[/tr]
+[tr]
+[td]Date Released:[/td]
+[td][img height="32" width="32" src="http://gooroosgruntz.info/images/Calendar.gif"][/td]
+[td]October 1, 1998[/td]
+[/tr]
+[tr]
+[td]Status:[/td]
+[td][img height="32" src="http://gooroosgruntz.info/emoticons/Happy.gif" width="32"][/td]
+[td]Released[/td]
+[/tr]
+[tr]
+[td]Notes:[/td]
+[td][img height="32" src="http://gooroosgruntz.info/images/Note.gif" width="32"][/td]
+[td]Size=Medium ([font color="Red"]61[/font]X[font color="Red"]61[/font])
+Density=Normal[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/5/5-CasinoConflictz.WWD"][img src="http://gooroosgruntz.info/editor/Imagez/Download.gif"][/a][/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]Forum's web host[/td]
+[/tr]
+[tr]
+[td][a href="http://gooroosgruntz.info/Battlez/Standard/5/5-CasinoConflictz.png"][img src="http://gooroosgruntz.info/Battlez/Standard/5/5-ThumbNail.jpg"] View The Map[/a][/td]
+[td][img src="http://gooroosgruntz.info/images/ThumbsUp.gif"][/td]
+[td]4,070,300 bytez - Forum's web host[/td]
+[/tr]
+[/table]
+
+In this battle the powerupz are very easy to access. A great strategy to gain more strong gruntz is to have three of your gruntz get the shovel, gauntletz, and brickz. Send the fourth grunt to get the conversion powerup and begin converting gruntz gleefully. Then send them back to the fort. The most important thing in this battle is the conversion powerup, monitor it carefully. You can send a shield nearby to be able to get it quickly with a healthy grunt, barehandz are frequently the most that will attack him. You will know when the conversion will come back when the health startz coming back. 
+If your fort is one of the two closer to the conversion powerup, you have faster access. But is an AI getz the conversion, he can convert your defense, which is why you must prevent the AI from getting it. So, what to do with the conversion when you get it? The direction to go is either of the fortz closest to it, don't try the other two, your grunt will die unless he can convert a grunt on the way. Convert any grunt with a tool, especially swordz (you may want to save before you get the powerup, in case you mess up).
+
+To position your defense, you have two optionz. You can place it near the stairz or you can send it near your fort. Near the fort is the one I now use. You will need to lower the red pyramidz by hitting the red switch in a corner. The near the fort defense is a fail proof solution to avoid your defense being converted.
+If you choose near the stairz, it may help to puta grunt near a red switch. If your defense fallz, have the grunt near the red switch lock your fort.
+
+Minimum gruntz required to play battle: [u]1-2[/u]
+This battle is cake to be conquered. Send a grunt to break through the brickz. You can grab the super speed to dodge enemiez. If the fort'z defense can be converted, do so. Then, attack the fort with it'z own defense. Have a grunt stay on the hold switch and you're fortfree. You can even send a wing grunt and avoid having to break the brickz.
+It'z even possible to beat the AIz with just one grunt in the whole battle. If you make a solid brick wall with gold brickz, (get gauntletz and break the cap off of any non-gold brickz within range) the AIz will hopelessly try breaking it. You're out of luck if an explosive grunt comez by though. Then send your grunt off to break brickz. Bribe a grunt to stand on the switch with a stationary toy. You may want to break the brickz with timebombz to be able to get out easier. It'z possible to go beyong the one grunt limit by converting gruntz, but you can't excced the 15 grunt limit.[/b]
